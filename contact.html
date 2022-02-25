@@ -3,17 +3,50 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<title>REACH ME</title>
+		<title>CONTACT</title>
 	</head>
 	<body>
-		<div class=container>
+		<div class="container">
 			<nav>
 				<a href=index.html>HOME</a>
 				<a href=portfolio.html>PORTFOLIO</a>
-				<a id=three href=contact.html>REACH ME</a>
+				<a id=menu href=contact.html>CONTACT</a>
 				<a href=blog.html>BLOG</a>
 				<a href=sitereport.html>SITE REPORT</a>
 			</nav>
+			<div class="contact">
+				<h3>Name: Shreejal Dahal</h3>
+				<h3>Address: Mechinagar-3, Jhapa</h3>
+				<h3>Phone: +977-9800000000</h3>
+				<h3>E-mail: shreejaldahal1@gmail.com</h3>
+			</div>
+			<form class="form_one" action="mailto:shreejaldahal1@gmail" method=post>
+				Firstname:
+				<input type="text" name="firstname">
+				Lastname:
+				<input type="text" name="lastname">
+				<div>
+					Gender:
+					<select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select>
+				<div>
+				<div>
+					Email:
+					<input type="email" name="email" placeholder="Your Email Adderss">
+					Nationality:
+					<select name="nationality">
+						<option value="nepalese">Nepalese</option>
+						<option value="other">Others</option>
+					</select>
+				</div>
+				<div>
+				<input type="submit" value="Submit">
+				</div>
+				<input type="reset">
+			</form>
 		</div>
 	</body>
-</html>
+</html> 

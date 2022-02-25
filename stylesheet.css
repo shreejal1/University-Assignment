@@ -13,9 +13,22 @@ a{
 	transition: 0.3s;
 }
 a:hover {
-	transform:scale(1.2);
+	transform: scale(1.2);
 }
-#one, #two, #three, #four, #five{
+#menu{
 	background-color: green;
 	border-radius: 15px;
+}
+.gridcontainerone{
+	display: grid;
+	grid-template-columns: auto auto auto 150px;
+	grid-gap: 10px;
+	text-align: center;
+	margin-top: 9px;
+}
+.element1, .element2, .element3, .element4{
+	background-color: grey;
+}
+#contactme{
+	text-align: center;
 }
