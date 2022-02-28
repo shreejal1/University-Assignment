@@ -5,6 +5,7 @@ nav{
 	background-color: darkblue;
 	border-radius: 100px 100px 30px 30px;
 	box-shadow: 0px 0px 6px 6px #afafaf;
+	width: 100%;
 }
 a{
 	text-decoration: none;
@@ -23,7 +24,6 @@ a:hover {
 	display: grid;
 	grid-template-columns: auto auto auto 150px;
 	grid-gap: 10px;
-	text-align: center;
 	margin-top: 9px;
 }
 .element1, .element2, .element3, .element4{
@@ -32,3 +32,22 @@ a:hover {
 #contactme{
 	text-align: center;
 }
+.name, .gender, .personal{
+	padding: 10px;
+}
+.maincontent{
+	border-style: double;
+	border-width: 4px;
+	margin: 5px -8px -8px -8px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 10px;
+}
+.contact, .form_one{
+	background: linear-gradient(to right, blue, white, white, blue);
+}
+.form_one{
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+	
