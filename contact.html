@@ -7,13 +7,17 @@
 	</head>
 	<body>
 		<div class="container">
-			<nav>
-				<a href=index.html>HOME</a>
-				<a href=portfolio.html>PORTFOLIO</a>
-				<a id=menu href=contact.html>CONTACT</a>
-				<a href=blog.html>BLOG</a>
-				<a href=sitereport.html>SITE REPORT</a>
-			</nav>
+			<div class=navigation>
+				<input type=checkbox id=toggle>
+				<label for="toggle">&#9776;</label>
+				<nav>
+					<a href=index.html>HOME</a>
+					<a href=portfolio.html>PORTFOLIO</a>
+					<a id=menu href=contact.html>CONTACT</a>
+					<a href=blog.html>BLOG</a>
+					<a href=sitereport.html>SITE REPORT</a>
+				</nav>
+			</div>
 			<div class=maincontent>
 				<div class="contact">
 					<h3>Name: Shreejal Dahal</h3>
@@ -23,8 +27,7 @@
 					<h2>UoN STUDENT ID: 22425897</h2>
 				</div>
 				<form class="form_one" action="mailto:shreejaldahal1@gmail" method=post>
-					<fieldset>
-					<legend>CONTACT FORM</legend>
+					<h3>CONTACT INFORMATION FORM</h3>
 					<div class=name>
 						Fullname:
 						<input type="text" name="fullname" placeholder="Your Fullname">
@@ -39,21 +42,18 @@
 					</div>
 					<div class=personal>
 						Email:
-						<input type="email" name="email" placeholder="Your Email Adderss">
+						<input type="email" name="email" id=box placeholder="Your Email Adderss">
 						Nationality:
-						<select name="nationality">
+						<select name="nationality" id=box>
 							<option value="nepalese">Nepalese</option>
 							<option value="other">Others</option>
 						</select>
-					</div>
-					<div>
 						<textarea name=messagebox rows="10" cols="60" placeholder="Your Message"></textarea>
 					</div>
 					<div>
 						<input type="submit" value="Submit">
 					</div>
 					<input type="reset">
-					</fieldset>
 				</form>
 			</div>
 		</div>
